@@ -241,9 +241,9 @@ section {
         top: 50%;
     }
     .console-container{
-        font-size: 1.9em;
+        font-size: 2.3em;
         left: -30px;
-        top: -150px;
+        top: -10px;
         width: 250px;
         overflow-x: hidden;
     }
