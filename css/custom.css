@@ -1333,6 +1333,7 @@ canvas {
 @media only screen and (max-width: 767px) {
     #googleMap {
         margin-top: 2rem;
+        width: 100%;
     }
 }
 
