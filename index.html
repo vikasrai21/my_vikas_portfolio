@@ -130,6 +130,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:200,300,300i,400,700" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -678,17 +682,20 @@
                     <form id="contact-form" method="post" data-netlify="true">
                         <div class="row">
                             <div class="col-12 col-sm-6">
+
                                 <input class="form-control" type="text" placeholder="Your Name" name="name" id="name"
-                                    required />
-                                <input class="form-control" type="text" placeholder="E-mail" name="email" id="email"
-                                    required />
+                                    />
+                                <input class="form-control" type="email" placeholder="E-mail" name="email" id="email"
+                                     />
                                 <input class="form-control" type="text" placeholder="Subject" name="subject"
-                                    id="subject" required />
+                                    id="subject" />
                             </div>
                             <div class="col-12 col-sm-6">
                                 <textarea class="form-control" placeholder="Your Message" rows="7" name="message"
-                                    id="message" required></textarea>
+                                    id="message" ></textarea>
                             </div>
+
+
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -697,7 +704,7 @@
                         </div>
                         <div data-netlify-recaptcha="true"></div>
                     </form>
-                    <div id="ajaxLoad"></div>
+                    <!-- <div id="ajaxLoad"></div> -->
                 </div>
             </div>
         </section>

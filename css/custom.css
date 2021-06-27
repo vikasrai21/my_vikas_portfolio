@@ -304,6 +304,7 @@ section {
 /******************************************************************************************************************/
 
 .navbar {
+    height: 60px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -312,9 +313,10 @@ section {
 }
 
 nav a.nav-link {
-    font-weight: 900;
+    /* font-weight: 100; */
     letter-spacing: 0.6px;
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Benne', serif;
 
 }
 
@@ -897,6 +899,7 @@ canvas {
     background: #f4f4f4;
     padding-bottom: 2rem;
     margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 #services h2 {
@@ -957,6 +960,7 @@ canvas {
     margin-top: 21px;
 }
 #services p{
+    font-size: 20px;
     margin-top: 20px;
 }
 /******************************************************************************************************************/
@@ -1096,6 +1100,7 @@ canvas {
     padding-bottom: 4rem;
     margin-bottom: 0;
     color: #fff;
+    
     width: 100%;
 }
 
@@ -1126,6 +1131,7 @@ canvas {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
 }
 
 #testimonials .flickity-page-dots {
@@ -1202,6 +1208,7 @@ canvas {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 2rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 #contact .container {
@@ -1229,6 +1236,7 @@ canvas {
 #contact p {
     color: #fff;
     letter-spacing: 0.5px;
+    font-size: 20px;
 }
 
 #contact .contact-form {
